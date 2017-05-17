@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89A5DA5FEF3E4D566293473D /* Pods_Ozzy_Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DA2B7DA187889BC107B2572 /* Pods_Ozzy_Social.framework */; };
+		CA6469091ECC39B900391F95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6469081ECC39B900391F95 /* AppDelegate.swift */; };
+		CA64690B1ECC39B900391F95 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA64690A1ECC39B900391F95 /* SignInVC.swift */; };
+		CA64690E1ECC39B900391F95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA64690C1ECC39B900391F95 /* Main.storyboard */; };
+		CA6469101ECC39B900391F95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA64690F1ECC39B900391F95 /* Assets.xcassets */; };
+		CA6469131ECC39B900391F95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6469111ECC39B900391F95 /* LaunchScreen.storyboard */; };
+		CA64691B1ECC3C0300391F95 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA64691A1ECC3C0300391F95 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0906CB37A445B07A4675B719 /* Pods-Ozzy-Social.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ozzy-Social.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ozzy-Social/Pods-Ozzy-Social.release.xcconfig"; sourceTree = "<group>"; };
+		5DA2B7DA187889BC107B2572 /* Pods_Ozzy_Social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ozzy_Social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		634BA4C83A5A295DFB975C95 /* Pods-Ozzy-Social.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ozzy-Social.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ozzy-Social/Pods-Ozzy-Social.debug.xcconfig"; sourceTree = "<group>"; };
+		CA6469051ECC39B900391F95 /* Ozzy-Social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ozzy-Social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6469081ECC39B900391F95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA64690A1ECC39B900391F95 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		CA64690D1ECC39B900391F95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA64690F1ECC39B900391F95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA6469121ECC39B900391F95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA6469141ECC39B900391F95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA64691A1ECC3C0300391F95 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA6469021ECC39B900391F95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A5DA5FEF3E4D566293473D /* Pods_Ozzy_Social.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		736C76B4268995E03BBB34D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DA2B7DA187889BC107B2572 /* Pods_Ozzy_Social.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA6468FC1ECC39B800391F95 = {
+			isa = PBXGroup;
+			children = (
+				CA6469071ECC39B900391F95 /* Ozzy-Social */,
+				CA6469061ECC39B900391F95 /* Products */,
+				FDBE7E01F2081A4B871C5F1A /* Pods */,
+				736C76B4268995E03BBB34D6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA6469061ECC39B900391F95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA6469051ECC39B900391F95 /* Ozzy-Social.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA6469071ECC39B900391F95 /* Ozzy-Social */ = {
+			isa = PBXGroup;
+			children = (
+				CA64691C1ECC7B7E00391F95 /* Model */,
+				CA64691D1ECC7B8400391F95 /* View */,
+				CA64691E1ECC7B8900391F95 /* Controller */,
+				CA6469081ECC39B900391F95 /* AppDelegate.swift */,
+				CA64690C1ECC39B900391F95 /* Main.storyboard */,
+				CA64690F1ECC39B900391F95 /* Assets.xcassets */,
+				CA6469111ECC39B900391F95 /* LaunchScreen.storyboard */,
+				CA6469141ECC39B900391F95 /* Info.plist */,
+				CA64691A1ECC3C0300391F95 /* GoogleService-Info.plist */,
+			);
+			path = "Ozzy-Social";
+			sourceTree = "<group>";
+		};
+		CA64691C1ECC7B7E00391F95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CA64691D1ECC7B8400391F95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CA64691E1ECC7B8900391F95 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CA64690A1ECC39B900391F95 /* SignInVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FDBE7E01F2081A4B871C5F1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				634BA4C83A5A295DFB975C95 /* Pods-Ozzy-Social.debug.xcconfig */,
+				0906CB37A445B07A4675B719 /* Pods-Ozzy-Social.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA6469041ECC39B900391F95 /* Ozzy-Social */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA6469171ECC39B900391F95 /* Build configuration list for PBXNativeTarget "Ozzy-Social" */;
+			buildPhases = (
+				19FCA420544A90952BC4EB25 /* [CP] Check Pods Manifest.lock */,
+				CA6469011ECC39B900391F95 /* Sources */,
+				CA6469021ECC39B900391F95 /* Frameworks */,
+				CA6469031ECC39B900391F95 /* Resources */,
+				6953A9F62A65403498A5907B /* [CP] Embed Pods Frameworks */,
+				DE5A30C051DBCAF3533E01B9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ozzy-Social";
+			productName = "Ozzy-Social";
+			productReference = CA6469051ECC39B900391F95 /* Ozzy-Social.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA6468FD1ECC39B800391F95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = user;
+				TargetAttributes = {
+					CA6469041ECC39B900391F95 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5F2E8G977P;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CA6469001ECC39B800391F95 /* Build configuration list for PBXProject "Ozzy-Social" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA6468FC1ECC39B800391F95;
+			productRefGroup = CA6469061ECC39B900391F95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA6469041ECC39B900391F95 /* Ozzy-Social */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA6469031ECC39B900391F95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6469131ECC39B900391F95 /* LaunchScreen.storyboard in Resources */,
+				CA64691B1ECC3C0300391F95 /* GoogleService-Info.plist in Resources */,
+				CA6469101ECC39B900391F95 /* Assets.xcassets in Resources */,
+				CA64690E1ECC39B900391F95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19FCA420544A90952BC4EB25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6953A9F62A65403498A5907B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ozzy-Social/Pods-Ozzy-Social-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE5A30C051DBCAF3533E01B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ozzy-Social/Pods-Ozzy-Social-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA6469011ECC39B900391F95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA64690B1ECC39B900391F95 /* SignInVC.swift in Sources */,
+				CA6469091ECC39B900391F95 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA64690C1ECC39B900391F95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA64690D1ECC39B900391F95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA6469111ECC39B900391F95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA6469121ECC39B900391F95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA6469151ECC39B900391F95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA6469161ECC39B900391F95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA6469181ECC39B900391F95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 634BA4C83A5A295DFB975C95 /* Pods-Ozzy-Social.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5F2E8G977P;
+				INFOPLIST_FILE = "Ozzy-Social/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Ozzy-Social";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CA6469191ECC39B900391F95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0906CB37A445B07A4675B719 /* Pods-Ozzy-Social.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5F2E8G977P;
+				INFOPLIST_FILE = "Ozzy-Social/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Ozzy-Social";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA6469001ECC39B800391F95 /* Build configuration list for PBXProject "Ozzy-Social" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6469151ECC39B900391F95 /* Debug */,
+				CA6469161ECC39B900391F95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA6469171ECC39B900391F95 /* Build configuration list for PBXNativeTarget "Ozzy-Social" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6469181ECC39B900391F95 /* Debug */,
+				CA6469191ECC39B900391F95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA6468FD1ECC39B800391F95 /* Project object */;
+}

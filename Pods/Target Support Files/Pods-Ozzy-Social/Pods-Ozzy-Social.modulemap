@@ -1,0 +1,6 @@
+framework module Pods_Ozzy_Social {
+  umbrella header "Pods-Ozzy-Social-umbrella.h"
+
+  export *
+  module * { export * }
+}
