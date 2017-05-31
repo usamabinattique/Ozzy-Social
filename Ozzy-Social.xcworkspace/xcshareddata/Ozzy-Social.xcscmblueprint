@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8B53D730E99E9E1F47D9A83F5696F2940098C806",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6CFC45D0C9781D0798814548163355F0522ADD04" : 9223372036854775807,
+    "8B53D730E99E9E1F47D9A83F5696F2940098C806" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4A9C8F71-C12F-470A-9383-3F20AF2BBF4E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6CFC45D0C9781D0798814548163355F0522ADD04" : "",
+    "8B53D730E99E9E1F47D9A83F5696F2940098C806" : "Ozzy-Social\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Ozzy-Social",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Ozzy-Social.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:usamabinattique\/demoDev.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6CFC45D0C9781D0798814548163355F0522ADD04"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:usamabinattique\/Ozzy-Social.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8B53D730E99E9E1F47D9A83F5696F2940098C806"
+    }
+  ]
+}
